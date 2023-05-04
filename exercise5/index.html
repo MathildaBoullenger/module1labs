@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shoe Shop</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h1 id="header">My Cool Shoe Shop</h1>
+    </header>
+    <div class="search">
+        <input type="text" class="search-box" placeholder="search brand, product">
+        <button class="search-btn">search</button>
+    </div>
+    <section>
+        <nav>
+            <ul>
+                <h1 id="browse">Browse</h1><br>
+                <h2>By Brand</h2>
+                <li><a href="#">Asos</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">New Balance</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a class="seemore" href="#">See more</a></li><br>
+                <h2>By style</h2>
+                <li><a href="#">Sneakers</a></li>
+                <li><a class="seemore" href="#">See more</a></li><br>
+            </ul>
+        </nav>
+        <article>
+            <div>
+                <h2>Weekly Pick</h2>
+                <br>
+                <p>The comeback of black and white</p><br>
+                <img src="./resources/images/images.jpeg" alt="Black and white Women's Skechers Shoes" /><br>
+                <a href="https://www.google.com/">Read more...</a><br>
+            </div>
+            <br>
+            </div>
+            <div id="addressform">
+                <form onsubmit="return">
+                    <label for="adr"> Shipping Address: </label><br>
+                    <input type="text" id="address">
+                </form>
+
+                <div id="orderbutton">
+                    <form action="javascript:alert('Your Order will be shipped soon');">
+                        <input type="submit" value="Order now">
+                    </form>
+                </div>
+
+            </div>
+        </article>
+        <aside id="aside">
+            <h2>Related</h2>
+            <ul class="related">
+                <li><a href="#"><img src= "./resources/images/download.jpeg"/></a></li>
+                <li><a href="#"><img src= "./resources/images/new_balance_992gr_1602419047_2fa619fc.jpg"/></a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer>
+        <p>@copyright 2050 by nobody. all rights reversed</p>
+    </footer>
+</body>
+
+</html>
